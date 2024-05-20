@@ -84,7 +84,7 @@ const IndividualPriceItem = ({
   description,
 }: IndividualPriceItemProps) => {
   return (
-    <div className="text-center lg:max-w-1/3 box-border min-h-500 border-2 rounded-2xl border-whiterino-50 p-4">
+    <div className="text-center xl:w-1/3 box-border min-h-500 border-2 rounded-2xl border-whiterino-50 p-4">
       <p className="bold-32 text-blue-30">{title}</p>
       <p className="text-gray-10">{description}</p>
       <PriceValueItem prices={prices} />
@@ -108,20 +108,20 @@ const GroupPriceItem = ({
   description,
 }: GroupPriceItemProps) => {
   return (
-    <div className="text-center lg:max-w-1/3 min-h-500 box-border border-2 rounded-2xl border-whiterino-50 p-4">
+    <div className="text-center xl:w-1/3 min-h-500 box-border border-2 rounded-2xl border-whiterino-50 p-4">
       <p className="bold-32 text-blue-30">{title}</p>
       <p className="text-gray-10">{description}</p>
-      <div className="flex flex-row flexCenter gap-4">
-        <div>
-          <p className="text-whiterino-50 pt-5 bold-18">duas pessoas</p>
+      <div className="flex flex-col xl:flex-row flexCenter gap-4">
+        <div className="w-1/3">
+          <p className="text-whiterino-50 pt-5 bold-18">dueto incrível</p>
           <PriceValueItem prices={pricestwo} />
         </div>
-        <div>
-          <p className="text-whiterino-50 pt-5 bold-18">três pessoas</p>
+        <div className="w-1/3">
+          <p className="text-whiterino-50 pt-5 bold-18">trio maravilha</p>
           <PriceValueItem prices={pricesthree} />
         </div>
-        <div>
-          <p className="text-whiterino-50 pt-5 bold-18">quatro pessoas</p>
+        <div className="w-1/3">
+          <p className="text-whiterino-50 pt-5 bold-18">quarteto fantástico</p>
           <PriceValueItem prices={pricesfour} />
         </div>
       </div>
