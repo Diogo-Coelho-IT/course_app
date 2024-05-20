@@ -55,7 +55,7 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className="flex flex-col w-full gap-3 sm:flex-row">
+        <div className="flex flex-col flexCenter w-full gap-3 sm:flex-row xl:flexStart">
           <Link href="/explicacoes">
             <Button type="button" title="Sabe mais aqui" variant="btn_orange" />
           </Link>

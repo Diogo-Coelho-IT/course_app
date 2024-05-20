@@ -17,12 +17,15 @@ const Student = ({ backgroundImage, title, subtitle }: StudentProps) => {
     >
       <div className="flex h-full flex-col items-start justify-between p-6 lg:px-20 lg:py-10">
         <div className="flexCenter gap-4">
-          <div className="rounded-full bg-blue-30 p-4">
+          <div>
+          <div className="h-12 w-12 rounded-full bg-blue-30 p-4">
             <Image src="/user.svg" alt="map" width={28} height={28} />
           </div>
+          </div>
+          
           <div className="flex flex-col gap-1">
             <h4 className="bold-20 text-black">{title}</h4>
-            <p className="bold-16 text-black">"{subtitle}"</p>
+            <p className="bg-blue-30 bold-16 text-black">"{subtitle}"</p>
           </div>
         </div>
       </div>
@@ -37,18 +40,18 @@ const Testimony = () => {
         <Student
           backgroundImage="bg-bg-img-1"
           title="Beatriz Ferro"
-          subtitle="O Diogo é um explicador que consegue ser um bom amigo e dá-nos a tal confiança pra acreditarmos em nós mesmos."
+          subtitle="O Diogo é um explicador que consegue ser um bom amigo e dá-nos a tal confiança para acreditarmos em nós mesmos."
         />
         <Student
-          backgroundImage="bg-bg-img-1"
-          title="Estudante B"
-          subtitle="Comentário"
+          backgroundImage="bg-bg-img-2"
+          title="Matilde Morgadinho"
+          subtitle="O Diogo é um ótimo profissional, transmite-nos segurança e tranquilidade, não desiste de nós e acredita nas nossas capacidades. O seu ar jovem faz com que chegue facilmente até nós, e isso é com certeza um ponto a favor."
         />
-        <Student
+        {/*<Student
           backgroundImage="bg-bg-img-1"
           title="Estudante C"
           subtitle="Comentário"
-        />
+  />*/}
       </div>
       <div className="flexEnd mt-10 px-6 lg:-mt-60 lg:mr-6">
         <div className="bg-orange-30 p-8 lg:max-w-[500px] xl:max-w-[734px] xl:rounded-5xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl">
