@@ -11,6 +11,7 @@ const Prices = () => {
           <div className="flex flexCenter relative py-4">
             <h2 className="bold-40 lg:bold-64">Preços</h2>
           </div>
+          <h3 className="text-center py-8 bold-16 lg:bold-18">Os preços que estão aqui estipulados podem sofrer alterações devido a descontos ou a situações específicas de ensino.</h3>
           <div className="flex flexCenter w-full gap-20 py-4 flex-col lg:flex-row">
             {INDIVIDUAL_PRICES.map((price) => (
               <IndividualPriceItem
@@ -111,7 +112,7 @@ const GroupPriceItem = ({
     <div className="text-center xl:w-1/3 min-h-500 box-border border-2 rounded-2xl border-whiterino-50 p-4">
       <p className="bold-32 text-blue-30">{title}</p>
       <p className="text-gray-10">{description}</p>
-      <div className="flex flex-col xl:flex-row flexCenter gap-4">
+      <div className="flex flex-col lg:flex-row flexCenter gap-4">
         <div className="w-1/3">
           <p className="text-whiterino-50 pt-5 bold-18">dueto incrível</p>
           <PriceValueItem prices={pricestwo} />

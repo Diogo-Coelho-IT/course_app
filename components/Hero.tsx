@@ -7,10 +7,10 @@ const Hero = () => {
     <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
       <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
         <h1 className="bold-52 text-whiterino-50 lg:bold-88">Explicações</h1>
-        <h3 className="bold-28 text-whiterino-50 lg:bold-52">Matemática A</h3>
-        <h5 className="bold-16 text-whiterino-50 lg:bold-28">
+        <h2 className="bold-28 text-whiterino-50 lg:bold-52">Matemática A</h2>
+        <h3 className="bold-16 text-whiterino-50 lg:bold-28">
           Ensino Secundário
-        </h5>
+        </h3>
         <p className="regular-16 mt-6 text-whiterino-50 text-justify xl:max-w-[520px]">
           A minha forma de ensinar é super prática.{" "}
           <b>Nada de teorias secantes</b>. Vou direto ao assunto para
@@ -48,7 +48,7 @@ const Hero = () => {
           </div>
 
           <p className="bold-16 lg:bold-20 text-whiterino-50">
-            36
+            21
             <span className="regular-16 lg:regular-20 ml-1">
               Avaliações Excelentes
             </span>
@@ -60,13 +60,13 @@ const Hero = () => {
             <Button type="button" title="Sabe mais aqui" variant="btn_orange" />
           </Link>
           <Link target="_blank" href="https://forms.gle/qfkDnL3MbDEo6dCZA">
-              <Button
-                type="button"
-                title="Marca explicações"
-                icon="/calendar-add.svg"
-                variant="btn_white_text"
-              />
-            </Link>
+            <Button
+              type="button"
+              title="Marca explicações"
+              icon="/calendar-add.svg"
+              variant="btn_white_text"
+            />
+          </Link>
         </div>
       </div>
       <div className="relative flex flex-1 flex-col gap-4 items-start">

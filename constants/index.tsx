@@ -144,12 +144,14 @@ export const FEATURES_TUTORING = [
   },
 ];
 
+
 // PRICES SECTION
 export const INDIVIDUAL_PRICES = [
   {
     title: "Individuais",
     prices: [20, 17.5, 16, 15],
-    description: "Preço por pessoa para explicações individuais (apenas uma pessoa)"
+    description:
+      "Preço por pessoa para explicações individuais (apenas uma pessoa)",
   },
 ];
 
@@ -159,14 +161,15 @@ export const GROUP_PRICES = [
     pricestwo: [19, 16.5, 15, 14],
     pricesthree: [18, 15.5, 14, 13],
     pricesfour: [17, 14.5, 13, 12],
-    description: "Preço por pessoa para explicações em grupo em que tu não conheces quem vai ter contigo"
+    description:
+      "Preço por pessoa para explicações em grupo em que tu não conheces quem vai ter contigo",
   },
   {
     title: "Amigos",
     pricestwo: [18.5, 16, 14.5, 13.5],
     pricesthree: [17.5, 15, 13.5, 12.5],
     pricesfour: [16.5, 14, 12.5, 11.5],
-    description: "Preço por pessoa para explicações em grupo com amigos"
+    description: "Preço por pessoa para explicações em grupo com amigos",
   },
 ];
 
@@ -175,12 +178,18 @@ export const FOOTER_LINKS = [
   {
     title: "Mais sobre este projecto",
     links: [
-      "Sobre diXcomplicar",
-      "Termos e Condições",
-      "Política de Privacidade",
+      {label: "Sobre diXcomplicar", site:"/dixcomplicar"},
+      {label: "Termos e Condições", site:"/dixcomplicar"},
+      {label: "Política de Privacidade", site:"/dixcomplicar"},
     ],
   },
 ];
+
+export const NEWSLETTER = {
+  title: "Newsletter",
+  site: "https://dixcomplicar.beehiiv.com/subscribe",
+  logo: "/gmail.svg",
+};
 
 export const FOOTER_CONTACT_INFO = {
   title: "Mete conversa",

@@ -1,10 +1,14 @@
+'use client'
 import { NAV_LINKS } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
+import React from "react";
 import Button from "./Button";
+import { useRouter } from "next/navigation";
 
 const Navbar = () => {
+
+  const router = useRouter()
 
   return (
     <nav className="flexBetween  max-container padding-container relative z-30 py-5">
@@ -32,6 +36,7 @@ const Navbar = () => {
         <Button
           type="button"
           title="Mete conversa"
+          onClick={() => router.push('mailto:dixcomplicar@gmail.com')}
           icon="/user.svg"
           variant="btn_dark_green_orange_border"
         />

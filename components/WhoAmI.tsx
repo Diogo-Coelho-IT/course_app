@@ -20,12 +20,12 @@ const WhoAmI = () => {
           o poder criativo e que me permitissem viajar pelo mundo fora e nunca
           ficar preso a sítio nenhum. Queria juntar o meu amor pela Matemática e
           a minha{" "}
-          <a href="/" className="font-bold text-blue-30">
+          <a href="/testemunhos" className="font-bold text-blue-30">
             experiência
           </a>{" "}
           enquanto explicador e o meu mestrado em Engenharia Informática e daí
           nasceu este projecto, o{" "}
-          <a href="/" className="font-bold text-blue-30">
+          <a href="/dixcomplicar" className="font-bold text-blue-30">
             diXcomplicar
           </a>
           . Gosto muito de falar sobre os meus projectos, ideias, factos
