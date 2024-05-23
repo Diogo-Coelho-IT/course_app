@@ -129,7 +129,7 @@ body {
   .bold-16 {
     @apply text-[16px] font-[700];
   }
-
+  
   /* Testimony */
   .testimony-quote {
     @apply absolute -right-6 bottom-4 w-[140px] lg:bottom-10 xl:-right-8 xl:w-[186px] 3xl:right-0;

@@ -31,7 +31,7 @@ const Dixcomplicar = () => {
           adorado fazer o que faço apesar de ser imensamente trabalhoso. Para
           aqueles que têm curiosidade em seguir o mesmo percurso eu irei mais
           tarde publicar no meu{" "}
-          <a href="/" className="font-bold text-orange-30">
+          <a href="" className="font-bold text-orange-30">
             Blog
           </a>{" "}
           como é que foi o processo todo desde que comecei esta aventura até ao
@@ -40,7 +40,7 @@ const Dixcomplicar = () => {
           então o curso e as explicações são pagas, mas com o passar do tempo
           irá haver imenso conteúdo que é possível obter gratuitamente. Se
           quiseres receber mais conteúdo de graça podes sempre inscreveres-te na{" "}
-          <a href="/" className="font-bold text-orange-30">
+          <a href="https://dixcomplicar.beehiiv.com/subscribe" className="font-bold text-orange-30">
             Newsletter
           </a>{" "}
           do diXcomplicar em que todas as semanas do ano lectivo ofereço um

@@ -1,4 +1,3 @@
-//import { PEOPLE_URL } from '@/constants'
 import Image from "next/image";
 import Link from "next/link";
 import Button from "./Button";
@@ -18,11 +17,11 @@ const Student = ({ backgroundImage, title, subtitle }: StudentProps) => {
       <div className="flex h-full flex-col items-start justify-between p-6 lg:px-20 lg:py-10">
         <div className="flexCenter gap-4">
           <div>
-          <div className="h-12 w-12 rounded-full bg-blue-30 p-4">
-            <Image src="/user.svg" alt="map" width={28} height={28} />
+            <div className="h-12 w-12 rounded-full bg-blue-30 p-4">
+              <Image src="/user.svg" alt="map" width={28} height={28} />
+            </div>
           </div>
-          </div>
-          
+
           <div className="flex flex-col gap-1">
             <h4 className="bold-20 text-black">{title}</h4>
             <p className="bg-blue-30 bold-16 text-black">"{subtitle}"</p>
@@ -47,11 +46,11 @@ const Testimony = () => {
           title="Matilde Morgadinho"
           subtitle="O Diogo é um ótimo profissional, transmite-nos segurança e tranquilidade, não desiste de nós e acredita nas nossas capacidades. O seu ar jovem faz com que chegue facilmente até nós, e isso é com certeza um ponto a favor."
         />
-        {/*<Student
-          backgroundImage="bg-bg-img-1"
-          title="Estudante C"
-          subtitle="Comentário"
-  />*/}
+        <Student
+          backgroundImage="bg-bg-img-3"
+          title="Rodrigo Grilo"
+          subtitle="O Diogo é um explicador fantástico, super profissional e sempre pronto a ajudar."
+        />
       </div>
       <div className="flexEnd mt-10 px-6 lg:-mt-60 lg:mr-6">
         <div className="bg-orange-30 p-8 lg:max-w-[500px] xl:max-w-[734px] xl:rounded-5xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl">
@@ -60,16 +59,16 @@ const Testimony = () => {
           </h2>
           <p className="regular-14 xl:regular-16 mt-5 text-black">
             Aqui estão testemunhos de pessoal que já teve explicação comigo. Eu
-            acredito em <strong>transparência máxima</strong>, não existe tal coisa como o
-            explicador perfeito e eu vou fazer sempre o meu melhor para melhorar
-            a partir do vosso feedback. Qualquer avaliação dada, a não ser que
-            contenha texto descriminatório e afins, será apresentada 
-             <strong> publicamente</strong> no website. Se quiseres ver mais testemunhos ou
-            avaliações feitas por alunos da minha explicação relativas à minha
-            pessoa podes clicar no botão abaixo.
+            acredito em <strong>transparência máxima</strong>, não existe tal
+            coisa como o explicador perfeito e eu vou fazer sempre o meu melhor
+            para melhorar a partir do vosso feedback. Qualquer avaliação dada, a
+            não ser que contenha texto descriminatório e afins, será apresentada
+            <strong> publicamente</strong> no website. Se quiseres ver mais
+            testemunhos ou avaliações feitas por alunos da minha explicação
+            relativas à minha pessoa podes clicar no botão abaixo.
           </p>
           <div className="flex flexEnd pt-10">
-          <Link href="/testemunhos">
+            <Link href="/testemunhos">
               <Button
                 type="button"
                 title="Mais Testemunhos"

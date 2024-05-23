@@ -42,7 +42,7 @@ const Tutoring = () => {
                 variant="btn_white_text"
               />
             </Link>
-            <Link href="/">
+            <Link href="/precos">
               <Button
                 type="button"
                 title="Preços por pessoa"

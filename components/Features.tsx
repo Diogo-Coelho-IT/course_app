@@ -1,6 +1,8 @@
 import { FEATURES } from "@/constants";
 import Image from "next/image";
 import React from "react";
+import Button from "./Button";
+import Link from "next/link";
 
 const Features = () => {
   return (
@@ -32,6 +34,20 @@ const Features = () => {
             ))}
           </ul>
         </div>
+      </div>
+      <div className="flex flex-col flexCenter mt-8">
+        <p className="bold-20 text-whiterino-50 my-5 lg:my-[30px] text-center lg:bg-none">
+          Para vermos qual o curso mais indicado para ti e para poderes receber{" "}
+          <strong className="text-blue-30">descontos</strong> mete conversa!
+        </p>
+        <Link href="mailto:dixcomplicar@gmail.com?subject=Curso&body=Boas! %0D%0A %0D%0AEu gostaria de ter o [colocar aqui o módulo do curso ou 'curso completo']">
+          <Button
+            title="Mete conversa para o curso"
+            variant="btn_orange"
+            type="button"
+            icon="user.svg"
+          />
+        </Link>
       </div>
     </section>
   );

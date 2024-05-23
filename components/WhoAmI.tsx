@@ -32,7 +32,7 @@ const WhoAmI = () => {
           curiosos, sobre a vida e muita outra coisa, mas não sobre a minha
           pessoa. Cada pessoa vai ver-me de forma diferente então para quê
           explicar a forma como me vejo?! Estou neste momento a construir um{" "}
-          <a href="/" className="font-bold text-blue-30">
+          <a href="" className="font-bold text-blue-30">
             blog
           </a>{" "}
           sobre o processo de criação dos meus projectos e as várias coisas que
@@ -40,7 +40,7 @@ const WhoAmI = () => {
           partir das coisas que ela cria/faz. Sou uma pessoa cheia de falhas
           como todos nós, mas estou aqui neste planeta para tornar-me o melhor
           de mim e ajudar outros nesse processo o máximo que conseguir,{" "}
-          <a href="/" className="font-bold text-blue-30">
+          <a href="mailto:dixcomplicar@gmail.com" className="font-bold text-blue-30">
             mete conversa
           </a>{" "}
           se quiseres saber mais e resto dum excelente dia, cheio de amor e

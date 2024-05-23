@@ -198,10 +198,12 @@ const Reviews = () => {
               e isso é com certeza um ponto a favor."
             </p>
             <p className="bold-16 mt-5 text-whiterino-50 text-left lg:mt-[30px] lg:bg-none">
-              Carolina
+              Carolina Ventura
             </p>
             <p className="regular-16 mt-1 text-whiterino-50 text-left lg:bg-none">
-              "Para além de tornar os piores conceitos matemáticos mais fáceis, ainda está sempre disposto a esclarecer as minhas dúvidas! Sem dúvida o melhor explicador!"
+              "Para além de tornar os piores conceitos matemáticos mais fáceis,
+              ainda está sempre disposto a esclarecer as minhas dúvidas! Sem
+              dúvida o melhor explicador!"
             </p>
             <p className="bold-16 mt-5 text-whiterino-50 text-left lg:mt-[30px] lg:bg-none">
               Catarina Santos
@@ -210,6 +212,13 @@ const Reviews = () => {
               "O Diogo não é só um explicador, é um amigo. Para além disso
               "percebe o que explica", descomplicando, a nosso ver, a
               matemática. Isto faz dele um grande explicador!"
+            </p>
+            <p className="bold-16 mt-5 text-whiterino-50 text-left lg:mt-[30px] lg:bg-none">
+              Rodrigo Grilo
+            </p>
+            <p className="regular-16 mt-1 text-whiterino-50 text-left lg:bg-none">
+              "O Diogo é um explicador fantástico, super profissional e sempre
+              pronto a ajudar."
             </p>
           </div>
           <div className="border w-1/2 self-center border-whiterino-50 mt-16" />
