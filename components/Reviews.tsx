@@ -164,7 +164,7 @@ const Reviews = () => {
           </h4>
           <p className="regular-16 mt-5 text-whiterino-50 text-justify lg:mt-[30px] lg:bg-none">
             {" "}
-            Há algumas secções do questionário que os alunos tem a opção de
+            Há algumas secções do questionário que os alunos têm a opção de
             responder ou não. O que é que fiz bem? O que é que eu fiz mal? E
             algum comentário extra que queiram dar. Pode haver algo que queiram
             comentar que pode não estar bem definido no resto do questionário.
@@ -265,7 +265,7 @@ const Reviews = () => {
               nacional."
             </p>
             <p className="regular-16 mt-5 text-whiterino-50 text-center lg:mt-[30px] lg:bg-none">
-              "Começas te a dar explicações."
+              "Começaste a dar explicações."
             </p>
             <p className="regular-16 mt-5 text-whiterino-50 text-right lg:mt-[30px] lg:bg-none">
               "Explicar bem e de maneira divertida."
@@ -314,7 +314,7 @@ const Reviews = () => {
             </p>
             <p className="regular-16 mt-5 text-whiterino-50 text-center lg:mt-[30px] lg:bg-none">
               "És incrível Diogo, obrigada por tudo. Gosto muito de tiii (como
-              explicadora e como pessoa)."
+              explicador e como pessoa)."
             </p>
           </div>
           <div className="border border-blue-30 my-16" />

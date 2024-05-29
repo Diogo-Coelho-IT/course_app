@@ -1,4 +1,4 @@
-import { FEATURES } from "@/constants";
+import { FEATURES, FEATURES_TUTORING } from "@/constants";
 import Image from "next/image";
 import React from "react";
 import Button from "./Button";
@@ -24,7 +24,7 @@ const Features = () => {
             <h2 className="bold-40 lg:bold-64">Curso para o Exame</h2>
           </div>
           <ul className="mt-10 grid gap-10 md:grid-cols-2 lg:mg-20 lg:gap-20 ">
-            {FEATURES.map((feature) => (
+            {FEATURES_TUTORING.map((feature) => (
               <FeatureItem
                 key={feature.title}
                 title={feature.title}
@@ -36,10 +36,10 @@ const Features = () => {
         </div>
       </div>
       <div className="flex flex-col flexCenter mt-8">
-        <p className="bold-20 text-whiterino-50 my-5 lg:my-[30px] text-center lg:bg-none">
+        {/*<p className="bold-20 text-whiterino-50 my-5 lg:my-[30px] text-center lg:bg-none">
           Para vermos qual o curso mais indicado para ti e para poderes receber{" "}
           <strong className="text-blue-30">descontos</strong> mete conversa!
-        </p>
+          </p>
         <Link href="mailto:dixcomplicar@gmail.com?subject=Curso&body=Boas! %0D%0A %0D%0AEu gostaria de ter o [colocar aqui o módulo do curso ou 'curso completo']">
           <Button
             title="Mete conversa para o curso"
@@ -47,7 +47,18 @@ const Features = () => {
             type="button"
             icon="user.svg"
           />
-        </Link>
+          </Link>*/}
+          <p className="bold-20 text-whiterino-50 my-5 lg:my-[30px] text-center lg:bg-none">
+          Preenche o formulário para seres contactado para teres explicações comigo. Até já!
+          </p>
+          <Link target="_blank" href="https://forms.gle/qfkDnL3MbDEo6dCZA">
+              <Button
+                type="button"
+                title="Marca explicações"
+                icon="/calendar-add.svg"
+                variant="btn_white_text"
+              />
+            </Link>
       </div>
     </section>
   );

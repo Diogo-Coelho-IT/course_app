@@ -130,17 +130,31 @@ export const FEATURES_TUTORING = [
       "Dou explicações privadas, em grupo, com amigos e sem amigos. Tenho um limite máximo de 4 pessoas por explicação, quero ter a certeza que tenho tempo para tirar dúvidas a todos.",
   },
   {
-    title: "Curso de graça na compra de explicações em pack acima de 10",
+    title: "Vídeos a pedido na compra de explicações em pack acima de 10",
     icon: "/piggybank.svg",
     variant: "orange",
     description:
-      "É verdade! Se marcares mais do que 10 explicações recebes o curso totalmente de graça! Para te ajudar a tirares aquele notão que queres.",
+      "É verdade! Se marcares mais do que 10 explicações podes pedir-me vídeos de matéria ou exercícios.",
+  },
+  {
+    title: "Resumos da matéria",
+    icon: "/magnifying-glass.svg",
+    variant: "orange",
+    description:
+      "Na compra de packs acima de 10 explicações também tens acesso a resumos da matéria.",
   },
   {
     title: "Feedback constante",
     icon: "/like.svg",
     description:
       'Não existe algo como "o explicador perfeito". Mas eu vou melhorando a minha arte a partir do vosso feedback para conseguir oferecer o melhor serviço possível.',
+  },
+  {
+    title: "Compra explicações e descobre mais",
+    icon: "/magnifying-glass.svg",
+    variant: "orange",
+    description:
+      "Compra explicações e descobre mais! A tua primeira explicação é de graça para também perceberes se realmente queres continuar.",
   },
 ];
 
@@ -179,8 +193,8 @@ export const FOOTER_LINKS = [
     title: "Mais sobre este projecto",
     links: [
       {label: "Sobre diXcomplicar", site:"/dixcomplicar"},
-      {label: "Termos e Condições", site:"/dixcomplicar"},
-      {label: "Política de Privacidade", site:"/dixcomplicar"},
+      {label: "Termos e Condições", site:"/termosecondicoes"},
+      {label: "Política de Privacidade", site:"/politicadeprivacidade"},
     ],
   },
 ];

@@ -17,8 +17,7 @@ const Hero = () => {
           descomplicar isto tudo e ficares um craque na Matemática. Os{" "}
           <b>preços</b> são <b>acessíveis</b> e ainda há <b>descontos</b> se
           quiseres ter em grupo ou com os teus amigos. Se optares por comprares
-          packs tens descontos e ainda o <b>curso para o exame de graça </b>(até
-          ao final desta época de exame). É tudo <b>online</b>, por isso podes
+          packs tens descontos e ainda <b>vídeos para te ajudar no teu estudo </b>(para packs acima de 10). É tudo <b>online</b>, por isso podes
           aprender de pijama, sem stress! E quanto aos horários? Combinamos
           todas as semanas para teres um{" "}
           <b>horário que te seja mais conveniente</b>. Clica no botão abaixo
@@ -56,9 +55,9 @@ const Hero = () => {
         </div>
 
         <div className="flex flex-col flexCenter w-full gap-3 sm:flex-row xl:flexStart">
-          <Link href="/explicacoes">
+          {/*<Link href="/explicacoes">
             <Button type="button" title="Sabe mais aqui" variant="btn_orange" />
-          </Link>
+            </Link>*/}
           <Link target="_blank" href="https://forms.gle/qfkDnL3MbDEo6dCZA">
             <Button
               type="button"

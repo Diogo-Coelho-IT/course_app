@@ -1,11 +1,11 @@
-import Reviews from "@/components/Reviews";
+import Privacypolicy from "@/components/Privacypolicy";
 
 export const runtime = "edge";
 
 export default function Home() {
   return (
     <>
-      <Reviews />
+      <Privacypolicy />
     </>
   );
 }

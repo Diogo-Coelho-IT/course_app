@@ -62,7 +62,7 @@ const Testimony = () => {
             acredito em <strong>transparência máxima</strong>, não existe tal
             coisa como o explicador perfeito e eu vou fazer sempre o meu melhor
             para melhorar a partir do vosso feedback. Qualquer avaliação dada, a
-            não ser que contenha texto descriminatório e afins, será apresentada
+            não ser que contenha texto discriminatório e afins, será apresentada
             <strong> publicamente</strong> no website. Se quiseres ver mais
             testemunhos ou avaliações feitas por alunos da minha explicação
             relativas à minha pessoa podes clicar no botão abaixo.
