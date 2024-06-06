@@ -106,7 +106,7 @@ export const FEATURES_TUTORING = [
       'Eu gosto de ir direito ao assunto e criar "truques" para ser mais fácil concretizar os exercícios.',
   },
   {
-    title: "10º ano, 11º, 12º e para Exame",
+    title: "10º, 11º, 12º, Exame",
     icon: "/education.svg",
     description:
       "Dou explicações ao ensino secundário e preparação ao exame. Não dou a universidade nem do 9º ano para trás.",
@@ -217,8 +217,14 @@ export const SOCIALS = {
       logo: "/facebook.svg",
       site: "https://www.facebook.com/profile.php?id=61557157109883",
     },
-    { logo: "/instagram.svg", site: "https://www.instagram.com/dixcomplicar/" },
-    { logo: "/discord.svg", site: "" },
+    { 
+      logo: "/instagram.svg", 
+      site: "https://www.instagram.com/dixcomplicar/" 
+    },
+    { 
+      logo: "/discord.svg",
+      site: "https://discord.gg/waArGk68MZ"
+    },
     {
       logo: "/youtube.svg",
       site: "https://www.youtube.com/channel/UCxp-7txN6KvZYpPV69ky6Jg",
