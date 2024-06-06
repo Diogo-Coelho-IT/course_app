@@ -21,7 +21,7 @@ const Features = () => {
 
         <div className="z-20 flex w-full flex-col lg:w-[60%]">
           <div className="relative">
-            <h2 className="bold-40 lg:bold-64">Curso para o Exame</h2>
+            <h2 className="bold-40 lg:bold-64">Explicações</h2>
           </div>
           <ul className="mt-10 grid gap-10 md:grid-cols-2 lg:mg-20 lg:gap-20 ">
             {FEATURES_TUTORING.map((feature) => (
